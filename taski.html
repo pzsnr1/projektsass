@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<title>Taski na ocene - ProjektSass</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="taski.css">
+</head>
+<body>
+	<header>
+		<center>
+			<h1>TASKI dla ProjektSass - Ćwiczenie obowiązkowe dla Technik Programista - na ocene</h1>
+		</center>
+	</header>
+	
+	<center>
+		<article class="czesc1">
+			<div><h2>Część 1 Przygotowanie preprocesora SASS</h2></div>
+			<div class="task">1. Utworzenie nowego folderu o nazwie: "ProjektSass"</div>
+			<div class="task">
+				2. Wchodzimy do folderu za pomocą CMD (konsoli) do "ProjektSass"<br>
+				np. c:\cd ProjektSass<br>
+					c:\ProjektSass\<br>
+				oraz za pomocą konsoli tworzymy dwa foldery: "sass" oraz "css"<br>
+				c:\ProjektSass\mkdir sass<br>
+				c:\ProjektSass\mkdir css<br>
+			</div>
+			<div class="task">
+				3. za pomocą konsoli CMD w "ProjektSass" - uruchamiamy nasłuchiwanie SASS:<br>
+				c:\ProjektSass\sass --watch sass:css
+			</div>
+			<div class="task">4. Tworzymy index.html w "ProjektSass"</div>
+			<div class="task">5. Tworzymy w "ProjektSass\sass" plik o nazwie style.scss</div>
+			<div class="task">6. Sublime Text dzielimy na 3 kolumny oraz otwieramy pliki w edytorze: 
+				<br>"View->Layout->Columns 3" odpowiednio 1kol. index.html, 2kol. style.scss, 3kol. style.css
+			</div>
+		</article>
+		<article class="czesc2">
+			<div><h2>Część 2  - pobranie materiałów z repozytorium GITHUB</h2></div>
+			<div class="task">
+				1. Aby pograć materiały z "https://github.com/pzsnr1/projektsass.git" GitHuba należy:<br><br>
+				a) utworzyć nowe konto na https://github.com/ (w razie problemów pisać na grupie)<br>
+				b) zainstalować program na lokalnym komputerze do zarządzania repozytoriami "GIT" ze strony: https://git-scm.com/downloads<br>
+				dla odpowiedniego systemu operacyjnego (pewnie wszyscy macie WIN, instalacja domyślna za pomocą kreatora... w razie problemów pisać na grupie)<br>
+				c)uruchomić konsole w nowym oknie CMD lub domyślną "Git Bash" po instalacji wejść do projektu "c:\ProjektSass"<br>
+				d)pobrać materiały poleceniem c:\ProjektSass\ git clone https://github.com/pzsnr1/projektsass.git<br>
+				e)cieszyć się z materiałów pobranych XD<br><br><br>
+				f)Na ocenę celujący: w ramach swojego konta na githubie w gałęzi branch master nowego repozytorium o nazwie "ProjektSass" dla każdego ćwiczenia z osobna tworzycie commity wraz z aktualizacją dokumentów(plików).<br>
+				W razie podjęcia się zadania i braku wiedzy jak to wykonać, proszę na grupie pisać lub dzwonić (poprowadzę za rączkę). Jeśli ktoś nie ma mojego nr tel to podam na grupie.<br>
+				Dla niewtajemniczonych polecam tutorial git'a: https://www.youtube.com/watch?v=D6EI7EbEN4Q&list=PLjHmWifVUNMKIGHmaGPVqSD-L6i1Zw-MH<br>  
+			</div>
+			<div class="task">
+				2. Pobrane materiały to:<br>
+				a) główny plik projektu index.html (celem ćwiczenia jest wygenerowanie arkusza style.css za pomocą preprocesora SASS z pliku style.scss) na potrzeby projektu index.html aby sformatować wygląd strony<br>
+				b) Pobranie zdjęć -- folder img.<br>
+				c) Do materiałów dodane są dwa pliki: taski.html, taski.css oraz katalog zadania- gdzie podane są wytyczne do projektu (czyli to co teraz czytacie)
+			</div>
+		</article>
+		<article class="czesc3">
+			<div><h2>Część 3 Wykonanie zadania projektowego</h2></div>
+			<div class="task">1. Ćwiczenia wykonujemy zgodnie z poniższym opisem, pliki scss zapisujemy do katalogu sass</div>
+			<div class="task">
+				<fieldset>
+					<h3>Ćwiczenie 1 - dodajemy do pliku "style.scss" poniższy kod jak na obrazku</h3>
+					<p class="opis">
+					Strona index.html - dodaj obsługę znaków pl<br><br>
+					Zmieniamy styl dla id=main-nav<br><br>
+					oraz dla section h1
+					</p><br>	
+					<img src="./zadania/Obraz1.png">
+				</fieldset>
+			</div>
+			<div class="task">
+				<fieldset>
+					<h3>Ćwiczenie 2 - dodajemy do pliku "style.scss" poniższy kod jak na obrazku</h3>
+					<p class="opis">
+					poszerzamy styl dla id=main-nav<br><br>
+					oraz stylujemy pseudoklase after<br><br>
+					UWAGA !!! proszę w komentarzu w kodzie style.scss opisać w co oznacza pseudoklasa after<br><br>
+					np. //komentarz dotyczy Ćwiczenia 2 --- i umieszczamy opis "co oznacza pseudoklasa after"
+					</p><br>	
+					<img src="./zadania/Obraz2.png">
+				</fieldset>
+			</div>
+			<div class="task">
+				<fieldset>
+					<h3>Ćwiczenie 3 - dodajemy do pliku "style.scss" poniższy kod jak na obrazku</h3>
+					<p class="opis">
+					Tworzymy Mixins oraz aktualizujemy kod styli.<br><br>
+					Proszę zwrócić uwagę na tworzenie @mixin oraz sposób ich użycia<br><br>
+					UWAGA !!! proszę w kodzie dodać komentarz opisać czym są "wstawki @mixin" <br><br>
+					</p><br>	
+					<img src="./zadania/Obraz3.png">
+					<img src="./zadania/Obraz4.png">
+				</fieldset>
+			</div>
+			<div class="task">
+				<fieldset>
+					<h3>Ćwiczenie 4 - tworzymy dodatkowe dokumenty scss - poniższy kod jak na obrazku</h3>
+					<p class="opis">
+					Teraz tworzymy dokumenty i w sublime text zapisujemy do katalogu sass:<br><br>
+					variables.scss (bedą przechowywać zmienne)<br><br>
+					reset.scss (ustawienia domyślne)<br><br>
+					mixins.scss (dokument z wstawkami)<br><br>
+					plik style.scss (aktualizujemy go jak na zdjeciu)<br><br>
+					UWAGA !!! w tej części ćwiczenie polega na aktualizacji kodu w pliku style.scss i dopisaniu kodu do poszczególnych dokumentów<br><br>
+					Proszę w komentarzu w pliku style.scss napisać jaka według was, dlaczego projest został wzbogacony o dodatkowe dokumenty scss? <br><br>
+					</p><br>	
+					<img src="./zadania/Obraz5.png"><br>
+					<img src="./zadania/Obraz6.png"><br>
+					<img src="./zadania/Obraz7.png"><br>
+					<img src="./zadania/Obraz8.png"><br>
+				</fieldset>
+			</div>
+			<div class="task">
+				<fieldset>
+					<h3>Ćwiczenie 5 - pseudo klasy – wycinamy z jednego miejsca pseudoklasy do innego poniższy kod jak na obrazku</h3>
+					<p class="opis">
+						zajmujemy się w tej części dokumentem mixins.scss oraz style.scss<br><br>
+						proszę zastanowić się i odpowiedzieć w komentarzu co oznacza w pliku mixins.scss wpis:<br><br>
+						@mixins clearFix{ &:after ....} ze szczególnym uwzględnieniem znaku "&" ? <br><br>
+					</p><br>	
+					<img src="./zadania/Obraz9.png">
+					<img src="./zadania/Obraz10.png">
+				</fieldset>
+			</div>
+			<div class="task">
+				<fieldset>
+					<h3>Ćwiczenie 6 - Matematyczne operatory - poniższy kod jak na obrazku</h3>
+					<p class="opis">
+						w tej części zwracamy szczególną uwagę na zastosowanie operatora dzielenia "/" oraz aktualizujemy dokument style.scss<br><br>
+						UWAGA !!! opisz w komentarzu jak na obrazku. Dlaczego dla id=services użyłem wpisu: "width: (100% / 3)"<br><br>
+					</p><br>	
+					<img src="./zadania/Obraz11.png">
+					<img src="./zadania/Obraz12.png">
+				</fieldset>
+			</div>
+			<div class="task">
+				<fieldset>
+					<h3>Ćwiczenie 7 - Grid width SASS Math - poniższy kod jak na obrazku</h3>
+					<p class="opis">
+						w tej części projektu proszę znaleźć w pliku style.scss KOD "#projects li{ }" oraz zawartość jego zamienić na kod jak na obrazku:<br>
+						<img src="./zadania/Obraz13.png">	
+					</p><br>
+					<p class="opis">
+						Dopisujemy @mixins grid($cols,$mgn) do pliku mixins.scss jak na poniższym obrazku<br><br>
+						UWAGA !!! proszę w komentażu opisać co dokładnie wykonuje @mixins grid($cols,$mgn)<br><br>
+						<img src="./zadania/Obraz14.png">	
+					</p><br>	
+				</fieldset>
+			</div>
+			<div class="task">
+				<fieldset>
+					<h3>Ćwiczenie 8 - Colour Function – (ligthen,complement ) polecam- http://sass-lang.com - poniższy kod jak na obrazku</h3>
+					<p class="opis">
+						Zwróć uwagę na kolejne zmiany: w dokumencie style.scss<br><br>
+						zmieniamy w: #main-nav dla znacznika "a" <br><br>
+						oraz zmieniamy w #services dla znacznika "a" oraz aktualizujemy style.scss<br><br>
+						UWAGA !!! opis w komentarzu za co są odpowiedzialne funkcje: ligthen,complement ? <br><br>
+					</p><br>
+					<img src="./zadania/Obraz15.png"><br>
+					<img src="./zadania/Obraz16.png"><br>
+					<img src="./zadania/Obraz17.png"><br>
+				</fieldset>
+			</div>
+			<div class="task">
+				<fieldset>
+					<h3>Ćwiczenie 9 - The @Content Keyword - poniższy kod jak na obrazku</h3>
+					<p class="opis">
+						w tej części zmieniamy content dla roździelczości strony 600px z użyciem "@media" (w momencie zmniejszenia strony menu powinno się zmienić jak na zdjęciu<br><br>
+						UWAGA !!! proszę poeksperymetować z roździelczościami dla różnych "@media"<br>
+					</p><br>
+					<img src="./zadania/Obraz18.png"><br>
+					<img src="./zadania/Obraz19.png"><br>
+					<img src="./zadania/Obraz20.png"><br>
+				</fieldset>
+			</div>
+			<div class="task">
+				<fieldset>
+					<h3>Ćwiczenie 10 - @if Statements - Wyrażenia warunkowe w SASS  - poniższy kod jak na obrazku</h3>
+					<p class="opis">
+						Tutaj pracujemy na dwóch dokumentach: style.scss oraz mixins.scss<br>
+						Przykład pokazania jak można wykorzystać wyrażenie warunkowe do sterowania wyświetlania li dla dwóch roździelczości 600px oraz 300px<br>
+						UWAGA !!! proszę przestudiować kod oraz w komentarzu spróbować opisać zasadę działania<br>
+					</p><br>
+					<img src="./zadania/Obraz21.png"><br>
+					<img src="./zadania/Obraz22.png"><br>
+				</fieldset>
+			</div>
+			<div class="task">
+				<fieldset>
+					<h3>Ćwiczenie 11 - @if Statements - Wyrażenia warunkowe w SASS ciąg dalszy  - poniższy kod jak na obrazku</h3>
+					<p class="opis">
+						zmodyfikuj dokument mixins.scss <br>
+						wykorzystaj istniejacy kod @mixin mQ() i dodaj go dla obsługi @mixin banner{} jak pokazano na obrazku<br>
+					</p><br>
+					<img src="./zadania/Obraz23.png"><br>
+				</fieldset>
+			</div>
+
+			<div class="task">
+				<fieldset>
+					W razie problemów proszę o komentarz na grupie !!!<br>
+					Powodzenia !!!<br>
+					Termin wykonania zadania do 20.03.2020<br>
+				</fieldset>
+			</div>
+
+		</article>
+	</center>
+
+<footer>Copyright by Walerasan 2020</footer>
+</body>
+</html>
